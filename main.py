@@ -17,7 +17,7 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U TGDbot')
+os.system('pip install -U BOT_TMK')
 os.system('clear')
 
 import BOT_TMK
