@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U MIKEYBOTS')
+os.system('pip install -U TGDbot')
 os.system('clear')
 
-import MikeyBots
+import BOT_TMK
 
-client = MikeyBots.PartyBot(
+client = TGDbot.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
